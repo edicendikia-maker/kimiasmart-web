@@ -1,15 +1,21 @@
 <!DOCTYPE html>
-<html lang="id">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kimia Smart - Pembelajaran Interaktif</title>
+    <title>Kimia Smart - Loading...</title>
     <style>
-        body, html { margin: 0; padding: 0; height: 100vh; width: 100%; overflow: hidden; }
-        iframe { width: 100%; height: 100%; border: none; }
+        body { background: #031510; color: #00f3ff; display: flex; justify-content: center; align-items: center; height: 100vh; font-family: sans-serif; }
     </style>
 </head>
 <body>
-    <iframe src="https://script.google.com/macros/s/AKfycbz1F_DzJhvQvtjm_DiBirszF3Sl_dyrJGKfVI9pdGVQ-uh9EajcNtTy6L58dAZj9tE7/exec"></iframe>
+    <div id="content">Menghubungkan ke Laboratorium Kimia...</div>
+
+    <script>
+        // Masukkan URL Web App GAS Anda di bawah ini
+        const webAppUrl = "https://script.google.com/macros/s/AKfycbz1F_DzJhvQvtjm_DiBirszF3Sl_dyrJGKfVI9pdGVQ-uh9EajcNtTy6L58dAZj9tE7/exec/exec";
+
+        window.location.replace(webAppUrl);
+    </script>
 </body>
 </html>
